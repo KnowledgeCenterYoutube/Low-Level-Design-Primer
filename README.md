@@ -26,6 +26,8 @@ e.g., In Parking Lot System, the Vehicle object will have attributes like Licenc
 
 ## Four principles of object-oriented programming:
 
+<img width="700" alt="java 8 and prio java 8  array review example" src="https://github.com/KnowledgeCenterYoutube/Low-Level-Design-Primer/blob/master/images/OOP_basics.png">
+
 ### Encapsulation: 
 Encapsulation refers to the bundling of data with the methods that operate on that data, or the restricting of direct access to some of an object's components. It is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them. Publicly accessible methods are generally provided in the class (getters/setters) to access the values, and other client classes call these methods to retrieve and modify the values within the object.
 

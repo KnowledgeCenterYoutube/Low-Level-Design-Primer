@@ -38,21 +38,21 @@ Abstraction refers to hiding all but the relevant data about an object in order 
 In object-oriented programming, inheritance is the mechanism of deriving new classes(sub classes) from existing ones such as super class or base class and then forming them into a hierarchy of classes.
 
 There are various types of inheritance, based on paradigm and specific language.
-#### Single inheritance
+* #### Single inheritance
 where subclasses inherit the features of one superclass. A class acquires the properties of another class.
 
-#### Multiple inheritance
+* #### Multiple inheritance
 where one class can have more than one superclass and inherit features from all parent classes.
 
-#### Multilevel inheritance
+* #### Multilevel inheritance
 where a subclass is inherited from another subclass. It is not uncommon that a class is derived from another derived class as shown in the figure "Multilevel inheritance".
 
 ### Polymorphism: 
 The word polymorphism is used to describe situations where something occurs in several different forms. In object-oriented programming (OOP), it describes the concept that objects of different types can be accessed through the same interface. Each type can provide its own, independent implementation of this interface. It is one of the core concepts of OOP.
 Ploymorphism can be of following types:
-#### Static Polymorphism
+* #### Static Polymorphism
 Different methods with same name but different signatures in a class definition.
-#### Dynamic Polymorphism
+* #### Dynamic Polymorphism
 Base class pointer holding derived class object. Behaviour determined dynamically at run-tim.
 
 

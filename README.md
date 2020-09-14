@@ -35,11 +35,48 @@ Encapsulation refers to the bundling of data with the methods that operate on th
 Abstraction refers to hiding all but the relevant data about an object in order to reduce the complexity of the system. It can be seen as an extension of encapsulation. It is very helpful in large systems having many objects interacting with each other, because it helps in hiding internal implementation details of objects and only reveals methods which are relevant to other objects.
 
 ### Inheritance: 
-TODO
+In object-oriented programming, inheritance is the mechanism of deriving new classes(sub classes) from existing ones such as super class or base class and then forming them into a hierarchy of classes.
+
+There are various types of inheritance, based on paradigm and specific language.
+#### Single inheritance
+where subclasses inherit the features of one superclass. A class acquires the properties of another class.
+
+#### Multiple inheritance
+where one class can have more than one superclass and inherit features from all parent classes.
+
+#### Multilevel inheritance
+where a subclass is inherited from another subclass. It is not uncommon that a class is derived from another derived class as shown in the figure "Multilevel inheritance".
 
 ### Polymorphism: 
-TODO
+The word polymorphism is used to describe situations where something occurs in several different forms. In object-oriented programming (OOP), it describes the concept that objects of different types can be accessed through the same interface. Each type can provide its own, independent implementation of this interface. It is one of the core concepts of OOP.
+Ploymorphism can be of following types:
+#### Static Polymorphism
+Different methods with same name but different signatures in a class definition.
+#### Dynamic Polymorphism
+Base class pointer holding derived class object. Behaviour determined dynamically at run-tim.
 
+
+-------------------------------------------------
+### Visit [Knowledge Center](https://www.youtube.com/c/KnowledgeCenter) for other video tutorials for Programming Interviews.
+-------------------------------------------------
+
+## Object-Oriented Analysis and Design (OOAD)
+Object-oriented analysis and design (OOAD) is a technical approach for analyzing and designing an application, system, or business by applying object-oriented programming, as well as using visual modeling throughout the software development process to guide stakeholder communication and product quality.
+
+OOAD in modern software engineering is typically conducted in an iterative and incremental way. The outputs of OOAD activities are analysis models (for OOA) and design models (for OOD) respectively. 
+
+Primary tasks in OOAD are:
+* Identifying the objects in a system
+* Organizing the objects by creating object model diagram
+* Defining the internals of the objects(attributes)
+* Defining the behavior of the objects(actions)
+* Describing how the objects interact
+* Implementation of methods, (internal data structures and algorithms)
+* Implementation of control
+* Implementation of associations
+* Making a design, which can be converted to executables using OO languages.
+
+We need a standard tool for documenting all this information. So we use UML(Unified Modeling Language). UML can be considered as the successor of OOAD. UML can represent all the concepts existing in OOAD. UML diagrams are a representation of object-oriented concepts only, understading which would be pre-requisite for learning UML.
 
 -------------------------------------------------
 ### Visit [Knowledge Center](https://www.youtube.com/c/KnowledgeCenter) for other video tutorials for Programming Interviews.
